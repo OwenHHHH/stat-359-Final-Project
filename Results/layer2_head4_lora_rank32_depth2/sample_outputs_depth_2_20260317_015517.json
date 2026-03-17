@@ -1,0 +1,72 @@
+[
+  {
+    "expression": "34 - (23 - 1)",
+    "ground_truth": 12,
+    "predicted": -7,
+    "generated_text": "Evaluate : 34 - ( 23 - 1 ) <think> = - 41 Expression now : ( - 41 - 41 ) - ( 26 - 28 ) Step Step 1 : - 41 - 41 = - 14 Expression now : ( - 26 - 41 ) - ( 26 - 28 ) Step 3 : - 17 - 41 = - 26 Expression now : - 26 - ( 26 - - 26 ) Step 4 : 26 - - 26 = - 10 Expression now : - 10 - 10 Step 5 : - 10 - 10 = - 7 Expression now : - 7 </think> Final Result : - 7",
+    "correct": false
+  },
+  {
+    "expression": "(98 + 42) + 40",
+    "ground_truth": 180,
+    "predicted": 110,
+    "generated_text": "Evaluate : ( 98 + 42 ) + 40 <think> <think> Step 2 : 98 + 42 = 110 Expression now : 110 </think> Final Result : 110",
+    "correct": false
+  },
+  {
+    "expression": "(67 - 4) + (89 + 76)",
+    "ground_truth": 228,
+    "predicted": 274,
+    "generated_text": "Evaluate : ( 67 - 4 ) + ( 89 + 76 ) <think> <think> Step 2 : 67 + 76 = 131 Expression now : 131 + ( 89 + 76 ) Step 2 : 89 + 76 = 160 Expression now : 131 + ( 89 + 76 ) Step 3 : 89 + 76 = 143 Expression now : 131 + 143 Step 4 : 131 + 143 = 257 Expression now : 308 </think> Final Result : 274",
+    "correct": false
+  },
+  {
+    "expression": "(37 - 95) - (97 + 66)",
+    "ground_truth": -221,
+    "predicted": -133,
+    "generated_text": "Evaluate : ( 37 - 95 ) - ( 97 + 66 ) <think> Step <think> <think> Step 2 : 37 + 66 = 76 Expression now : 76 - ( 97 + 66 ) Step 2 : 97 + 66 = 153 Expression now : 76 - ( 97 + 66 ) Step 3 : 97 + 66 = 152 Expression now : 76 - 152 Step 4 : 76 - 147 = - 133 Expression now : - 133 </think> Final Result : - 133",
+    "correct": false
+  },
+  {
+    "expression": "23 - (98 - 8)",
+    "ground_truth": -67,
+    "predicted": 161,
+    "generated_text": "Evaluate : 23 - ( 98 - 8 ) <think> Evaluate = 161 Expression now : 161 + ( 97 - 161 ) Step 2 : 97 - 161 = - 124 Expression now : 161 + ( 97 - - 124 ) Step 3 : 97 - - 124 = - 145 Expression now : 161 + - 145 Step 4 : 161 + - 145 = Expression now : 161 </think> Final Result : 161",
+    "correct": false
+  },
+  {
+    "expression": "(31 - 28) + (43 + 53)",
+    "ground_truth": 99,
+    "predicted": 100,
+    "generated_text": "Evaluate : ( 31 - 28 ) + ( 43 + 53 ) <think> Evaluate : 43 - ( 43 + 53 ) ) Step 2 : 43 - 28 = 53 Expression now : 53 + ( 43 + 53 ) Step 2 : 43 + 53 = 83 Expression now : 53 + ( 43 + 53 ) Step 3 : 43 + 53 = 100 Expression now : 53 + 100 Step 4 : 53 + 100 = 100 Expression now : 100 </think> Final Result : 100",
+    "correct": false
+  },
+  {
+    "expression": "44 + (51 + 54)",
+    "ground_truth": 149,
+    "predicted": 189,
+    "generated_text": "Evaluate : 44 + ( 51 + 54 ) <think> = 100 Expression now : ( 100 + 110 ) + 1 Step 2 : 100 + 110 = 189 Expression now : 189 </think> Final Result : 189",
+    "correct": false
+  },
+  {
+    "expression": "(96 - 34) - (31 - 47)",
+    "ground_truth": 78,
+    "predicted": 34,
+    "generated_text": "Evaluate : ( 96 - 34 ) - ( 31 - 47 ) <think> <think> Step 2 : 96 - 34 = 39 Expression now : 39 - ( 31 - 47 ) Step 2 : 31 - 47 = 35 Expression now : 39 - ( 31 - 47 ) Step 3 : 31 - 47 = - 2 Expression now : 39 - - 2 Step 4 : 39 - - 2 = 34 Expression now : 34 </think> Final Result : 34",
+    "correct": false
+  },
+  {
+    "expression": "(60 + 68) + (82 + 61)",
+    "ground_truth": 271,
+    "predicted": 254,
+    "generated_text": "Evaluate : ( 60 + 68 ) + ( 82 + 61 ) <think> <think> Step 1 : 60 + 68 = 157 Expression now : 157 + ( 82 + 61 ) Step 2 : 82 + 61 = 152 Expression now : 157 + ( 82 + 61 ) Step 3 : 82 + 61 = 193 Expression now : 157 + 193 Step 4 : 157 + 193 = 254 Expression now : 208 </think> Final Result : 254",
+    "correct": false
+  },
+  {
+    "expression": "(49 + 46) + (64 - 40)",
+    "ground_truth": 119,
+    "predicted": 106,
+    "generated_text": "Evaluate : ( 49 + 46 ) + ( 64 - 40 ) <think> <think> Step 2 : 49 + 46 = 74 Expression now : 74 + ( 64 - 40 ) Step 2 : 64 - 40 = - 21 Expression now : 74 + ( 64 - 40 ) Step 3 : 64 - 40 = 43 Expression now : 74 + 43 Step 4 : 74 + 43 = 106 Expression now : 106 </think> Final Result : 106",
+    "correct": false
+  }
+]
