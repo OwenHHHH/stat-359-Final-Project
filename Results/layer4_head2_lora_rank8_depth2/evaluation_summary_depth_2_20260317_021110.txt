@@ -1,0 +1,99 @@
+============================================================
+ARITHMETIC LLM EVALUATION SUMMARY
+============================================================
+
+Model: Models/layer4_head2_lora_rank8/instruction_lora_20260317_004322_321268/lora_adapter.pt
+Tokenizer: Data
+Timestamp: 20260317_021110
+
+METRICS:
+------------------------------------------------------------
+Total Samples: 20
+Correct Samples: 0
+Parseable Samples: 20
+Exact Match Accuracy: 0.00%
+Parse Success Rate: 100.00%
+Avg Generation Length: 58.80 tokens
+
+SAMPLE OUTPUTS:
+------------------------------------------------------------
+
+Sample 1:
+  Expression: (44 + 3) + (8 + 62)
+  Ground Truth: 117
+  Predicted: 126
+  Correct: False
+  Generated Text:
+    Evaluate : ( 44 + 3 ) + ( 8 + 62 ) <think> <think> Step 1 : 44 + 3 = 38 Expression now : 38 + ( 8 + 62 ) Step 2 : 8 + 62 = 67 Expression now : 38 + 67 Step 3 : 38 + 67 = 126 Expression now : 126 </think> Final Result : 126
+
+Sample 2:
+  Expression: (50 - 88) + (66 + 37)
+  Ground Truth: 65
+  Predicted: 73
+  Correct: False
+  Generated Text:
+    Evaluate : ( 50 - 88 ) + ( 66 + 37 ) <think> <think> Step 1 : 50 - 88 = - 7 Expression now : - 7 + ( 66 + 37 ) Step 2 : 66 + 37 = 89 Expression now : - 7 + 89 Step 3 : - 7 + 89 = 73 Expression now : 73 </think> Final Result : 73
+
+Sample 3:
+  Expression: (86 + 8) - (33 + 37)
+  Ground Truth: 24
+  Predicted: -40
+  Correct: False
+  Generated Text:
+    Evaluate : ( 86 + 8 ) - ( 33 + 37 ) <think> <think> Step 1 : 86 + 8 = 91 Expression now : 91 - ( 33 + 37 ) Step 2 : 33 + 37 = 84 Expression now : 91 - 84 Step 3 : 91 - 84 = - 40 Expression now : - 40 </think> Final Result : - 40
+
+Sample 4:
+  Expression: (47 - 52) - (81 - 24)
+  Ground Truth: -62
+  Predicted: -54
+  Correct: False
+  Generated Text:
+    Evaluate : ( 47 - 52 ) - ( 81 - 24 ) <think> <think> Step 1 : 47 - 52 = - 6 Expression now : - 6 - ( 81 - 24 ) Step 2 : 81 - 24 = 44 Expression now : - 6 - 44 Step 3 : - 6 - 44 = - 54 Expression now : - 54 </think> Final Result : - 54
+
+Sample 5:
+  Expression: (73 + 3) + (56 + 90)
+  Ground Truth: 222
+  Predicted: 191
+  Correct: False
+  Generated Text:
+    Evaluate : ( 73 + 3 ) + ( 56 + 90 ) <think> <think> Step 1 : 73 + 3 = 74 Expression now : 74 + ( 56 + 90 ) Step 3 : 56 + 90 = 141 Expression now : 74 + 141 Step 3 : 74 + 141 = 191 Expression now : 191 </think> Final Result : 191
+
+Sample 6:
+  Expression: (26 + 96) - (86 + 83)
+  Ground Truth: -47
+  Predicted: -78
+  Correct: False
+  Generated Text:
+    Evaluate : ( 26 + 96 ) - ( 86 + 83 ) <think> <think> Step 1 : 26 + 96 = 102 Expression now : 102 - ( 86 + 83 ) Step 2 : 86 + 83 = 142 Expression now : 102 - 142 Step 3 : 102 - 142 = - 78 Expression now : - 78 </think> Final Result : - 78
+
+Sample 7:
+  Expression: (96 - 98) + (36 + 65)
+  Ground Truth: 99
+  Predicted: 105
+  Correct: False
+  Generated Text:
+    Evaluate : ( 96 - 98 ) + ( 36 + 65 ) <think> <think> Step 1 : 96 - 98 = - 9 Expression now : - 9 + ( 36 + 65 ) Step 2 : 36 + 65 = 104 Expression now : - 9 + 104 Step 3 : - 9 + 104 = 105 Expression now : 105 </think> Final Result : 105
+
+Sample 8:
+  Expression: (76 - 0) + (30 + 69)
+  Ground Truth: 175
+  Predicted: 166
+  Correct: False
+  Generated Text:
+    Evaluate : ( 76 - 0 ) + ( 30 + 69 ) <think> <think> Step 1 : 76 - 0 = 78 Expression now : 78 + ( 30 + 69 ) Step 2 : 30 + 69 = 98 Expression now : 78 + 98 Step 3 : 78 + 98 = 166 Expression now : 166 </think> Final Result : 166
+
+Sample 9:
+  Expression: (13 - 8) - (87 + 97)
+  Ground Truth: -179
+  Predicted: -154
+  Correct: False
+  Generated Text:
+    Evaluate : ( 13 - 8 ) - ( 87 + 97 ) <think> <think> Step 1 : 13 - 8 = 16 Expression now : 16 - ( 87 + 97 ) Step 2 : 87 + 97 = 163 Expression now : 16 - 163 Step 3 : 16 - 163 = - 154 Expression now : - 154 </think> Final Result : - 154
+
+Sample 10:
+  Expression: (84 - 91) + 35
+  Ground Truth: 28
+  Predicted: -17
+  Correct: False
+  Generated Text:
+    Evaluate : ( 84 - 91 ) + 35 <think> Step 2 : 84 - 91 = - 17 Expression now : - 17 </think> Final Result : - 17
