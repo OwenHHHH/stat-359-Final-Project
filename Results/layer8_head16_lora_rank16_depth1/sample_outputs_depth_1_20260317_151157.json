@@ -1,0 +1,72 @@
+[
+  {
+    "expression": "4 + 8",
+    "ground_truth": 12,
+    "predicted": 4,
+    "generated_text": "Evaluate : 4 + 8 <think> </think> Final Result : 4",
+    "correct": false
+  },
+  {
+    "expression": "54 - 71",
+    "ground_truth": -17,
+    "predicted": -15,
+    "generated_text": "Evaluate : 54 - 71 <think> <think> Step 1 : 54 - 71 = - 15 Expression now : - 15 </think> Final Result : - 15",
+    "correct": false
+  },
+  {
+    "expression": "40 - 96",
+    "ground_truth": -56,
+    "predicted": 40,
+    "generated_text": "Evaluate : 40 - 96 <think> </think> Final Result : 40",
+    "correct": false
+  },
+  {
+    "expression": "65 + 98",
+    "ground_truth": 163,
+    "predicted": 187,
+    "generated_text": "Evaluate : 65 + 98 <think> <think> Step 1 : 65 + 98 = 187 Expression now : 187 </think> Final Result : 187",
+    "correct": false
+  },
+  {
+    "expression": "6 - 51",
+    "ground_truth": -45,
+    "predicted": null,
+    "generated_text": "Evaluate : 6 - 51 <think>",
+    "correct": false
+  },
+  {
+    "expression": "10 + 31",
+    "ground_truth": 41,
+    "predicted": 10,
+    "generated_text": "Evaluate : 10 + 31 <think> <think> </think> Final Result : 10",
+    "correct": false
+  },
+  {
+    "expression": "5 - 76",
+    "ground_truth": -71,
+    "predicted": 5,
+    "generated_text": "Evaluate : 5 - 76 <think> <think> </think> Final Result : 5",
+    "correct": false
+  },
+  {
+    "expression": "44 + 22",
+    "ground_truth": 66,
+    "predicted": 63,
+    "generated_text": "Evaluate : 44 + 22 <think> Step 1 : 44 + 19 = 63 Expression now : 63 </think> Final Result : 63",
+    "correct": false
+  },
+  {
+    "expression": "28 + 43",
+    "ground_truth": 71,
+    "predicted": 28,
+    "generated_text": "Evaluate : 28 + 43 <think> <think> </think> Final Result : 28",
+    "correct": false
+  },
+  {
+    "expression": "43 - 44",
+    "ground_truth": -1,
+    "predicted": 43,
+    "generated_text": "Evaluate : 43 - 44 <think> <think> </think> Final Result : 43",
+    "correct": false
+  }
+]
