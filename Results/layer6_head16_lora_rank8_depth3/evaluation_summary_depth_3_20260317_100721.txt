@@ -1,0 +1,99 @@
+============================================================
+ARITHMETIC LLM EVALUATION SUMMARY
+============================================================
+
+Model: Models/layer6_head16_lora_rank8/instruction_lora_20260316_112554_645368/lora_adapter.pt
+Tokenizer: Data
+Timestamp: 20260317_100721
+
+METRICS:
+------------------------------------------------------------
+Total Samples: 100
+Correct Samples: 0
+Parseable Samples: 100
+Exact Match Accuracy: 0.00%
+Parse Success Rate: 100.00%
+Avg Generation Length: 180.59 tokens
+
+SAMPLE OUTPUTS:
+------------------------------------------------------------
+
+Sample 1:
+  Expression: ((62 - 3) + (22 - 78)) - 72
+  Ground Truth: -69
+  Predicted: -22
+  Correct: False
+  Generated Text:
+    Evaluate : ( ( 62 - 3 ) + ( 22 - 78 ) ) - 72 <think> <think> Step 2 : 62 - 3 = 53 Expression now : ( 53 + ( 22 - 78 ) ) - 72 Step 3 : 22 - 78 = - 71 Expression now : ( 53 + - 71 ) - 72 Step 4 : 53 + - 71 = - 22 Expression now : - 22 </think> Final Result : - 22
+
+Sample 2:
+  Expression: ((53 + 59) - (99 - 17)) + ((63 + 42) + (73 + 89))
+  Ground Truth: 297
+  Predicted: 296
+  Correct: False
+  Generated Text:
+    Evaluate : ( ( 53 + 59 ) - ( 99 - 17 ) ) + ( ( 63 + 42 ) + ( 73 + 89 ) ) <think> <think> Step 1 : 53 + 59 = 113 Expression now : ( 113 - ( 99 - 17 ) ) + ( ( 63 + 42 ) + ( 73 + 89 ) ) Step 2 : 99 - 17 = 91 Expression now : ( 113 - 91 ) + ( ( 63 + 42 ) + ( 73 + 89 ) ) Step 3 : 113 - 91 = 26 Expression now : 26 + ( ( 63 + 42 ) + ( 73 + 89 ) ) Step 4 : 63 + 42 = 104 Expression now : 26 + ( 104 + ( 73 + 89 ) ) Step 5 : 73 + 89 = 160 Expression now : 26 + ( 104 + 160 ) Step 6 : 104 + 160 = 249 Expression now : 26 + 249 Step 7 : 26 + 249 = 298 Expression now : 325 </think> Final Result : 296
+
+Sample 3:
+  Expression: ((56 - 64) + 80) + ((25 - 52) - (94 - 59))
+  Ground Truth: 10
+  Predicted: -115
+  Correct: False
+  Generated Text:
+    Evaluate : ( ( 56 - 64 ) + 80 ) + ( ( 25 - 52 ) - ( 94 - 59 ) ) <think> <think> Step 2 : 56 - 64 = - 9 Expression now : ( ( - 9 - 64 ) + 80 ) + ( ( 25 - 52 ) - ( 94 - 59 ) ) Step 2 : - 9 - 64 = - 75 Expression now : ( - 75 + 80 ) + ( ( 25 - 52 ) - ( 94 - 59 ) ) Step 3 : - 75 + 80 = - 43 Expression now : - 43 + ( ( 25 - 52 ) - ( 94 - 59 ) ) Step 4 : 25 - 52 = - 24 Expression now : - 43 + ( - 24 - ( 94 - 59 ) ) Step 6 : 94 - 59 = 36 Expression now : - 43 + ( - 24 - 36 ) Step 6 : - 24 - 36 = - 70 Expression now : - 43 + - 70 Step 8 : - 43 + - 70 = - 115 Expression now : - 115 </think> Final Result : - 115
+
+Sample 4:
+  Expression: ((30 + 57) + (39 - 75)) + 11
+  Ground Truth: 62
+  Predicted: 113
+  Correct: False
+  Generated Text:
+    Evaluate : ( ( 30 + 57 ) + ( 39 - 75 ) ) + 11 <think> <think> <think> <think> Step 1 : 30 + 57 = 82 Expression now : ( ( 73 + 71 ) + ( 39 - 75 ) ) + 11 Step 3 : 73 + 71 = 148 Expression now : ( 148 + ( 39 - 75 ) ) + 11 Step 4 : 39 - 75 = - 50 Expression now : ( 148 + - 50 ) + 11 Step 5 : 148 + - 50 = 113 Expression now : 113 </think> Final Result : 113
+
+Sample 5:
+  Expression: ((9 - 42) - (15 - 75)) - ((52 - 82) + (71 + 68))
+  Ground Truth: -82
+  Predicted: -89
+  Correct: False
+  Generated Text:
+    Evaluate : ( ( 9 - 42 ) - ( 15 - 75 ) ) - ( ( 52 - 82 ) + ( 71 + 68 ) ) <think> <think> Step 1 : 9 - 42 = - 52 Expression now : ( - 52 - ( 15 - 75 ) ) - ( ( 52 - 82 ) + ( 71 + 68 ) ) Step 2 : 15 - 75 = - 69 Expression now : ( - 52 - - 69 ) - ( ( 52 - 82 ) + ( 71 + 68 ) ) Step 3 : - 52 - - 69 = 22 Expression now : 22 - ( ( 52 - 82 ) + ( 71 + 68 ) ) Step 4 : 52 - 82 = - 31 Expression now : 22 - ( - 31 + ( 71 + 68 ) ) Step 5 : 71 + 68 = 142 Expression now : 22 - ( - 31 + 142 ) Step 6 : - 31 + 142 = 115 Expression now : 22 - 115 Step 7 : 22 - 115 = - 89 Expression now : - 89 </think> Final Result : - 89
+
+Sample 6:
+  Expression: 25 - ((39 + 99) + (68 - 13))
+  Ground Truth: -168
+  Predicted: 130
+  Correct: False
+  Generated Text:
+    Evaluate : 25 - ( ( 39 + 99 ) + ( 68 - 13 ) ) <think> <think> Step 2 : 39 + 99 = 131 Expression now : ( ( 131 - 99 ) + ( 68 + 13 ) ) + 271 Step 3 : 131 - 99 = 21 Expression now : ( 21 + ( 68 + 13 ) ) + 238 Step 4 : 68 + 13 = 84 Expression now : ( 21 + 84 ) + 238 Step 5 : 21 + 92 = 130 Expression now : 130 </think> Final Result : 130
+
+Sample 7:
+  Expression: ((26 - 78) + (84 + 27)) + 4
+  Ground Truth: 63
+  Predicted: 53
+  Correct: False
+  Generated Text:
+    Evaluate : ( ( 26 - 78 ) + ( 84 + 27 ) ) + 4 <think> <think> Step 1 : 26 - 78 = - 68 Expression now : ( - 68 + ( 84 + 27 ) ) + 4 Step 3 : 84 + 27 = 111 Expression now : ( - 68 + 111 ) + 4 Step 4 : - 68 + 111 = 53 Expression now : 53 </think> Final Result : 53
+
+Sample 8:
+  Expression: ((84 - 24) - (11 + 82)) - ((86 + 35) - (7 + 82))
+  Ground Truth: -65
+  Predicted: -86
+  Correct: False
+  Generated Text:
+    Evaluate : ( ( 84 - 24 ) - ( 11 + 82 ) ) - ( ( 86 + 35 ) - ( 7 + 82 ) ) <think> <think> Step 1 : 84 - 24 = 62 Expression now : ( 62 - ( 11 + 82 ) ) - ( ( 86 + 35 ) - ( 7 + 82 ) ) Step 2 : 11 + 82 = 93 Expression now : ( 62 - 93 ) - ( ( 86 + 35 ) - ( 7 + 82 ) ) Step 3 : 62 - 93 = - 28 Expression now : - 28 - ( ( 86 + 35 ) - ( 7 + 82 ) ) Step 4 : 86 + 35 = 121 Expression now : - 28 - ( 121 - ( 7 + 82 ) ) Step 5 : 7 + 82 = 92 Expression now : - 28 - ( 121 - 92 ) Step 6 : 121 - 92 = 50 Expression now : - 28 - 50 Step 7 : - 28 - 50 = - 86 Expression now : - 86 </think> Final Result : - 86
+
+Sample 9:
+  Expression: 71 + ((59 + 12) + (5 - 98))
+  Ground Truth: 49
+  Predicted: 124
+  Correct: False
+  Generated Text:
+    Evaluate : 71 + ( ( 59 + 12 ) + ( 5 - 98 ) ) <think> <think> Step 1 : 59 + 12 = 72 Expression now : ( ( 72 + ( 39 - 97 ) ) + ( ( 5 - ( 5 - 98 ) ) + ( ( 5 - 1 ) + ( 5 - 26 ) ) ) ) Step 3 : 39 - 97 = - 56 Expression now : ( ( 72 + ( 72 + - 56 ) ) + ( ( 5 - ( 5 - 98 ) ) + ( ( 5 - 1 ) + ( 5 - 26 ) ) ) ) Step 3 : 72 + - 56 = - 14 Expression now : ( ( 72 + - 14 ) + ( ( 5 - ( 5 - 98 ) ) + ( ( 5 - 1 ) + ( 5 - 26 ) ) ) ) Step 4 : 72 + - 14 = 47 Expression now : ( 47 + ( ( 5 - ( 5 - 98 ) ) + ( ( 5 - 1 ) + ( 5 - 26 ) ) ) Step 6 : 5 - 98 = - 84 Expression now : ( 47 + ( ( 5 - - 84 ) + ( ( 5 - 1 ) + ( 5 - 26 ) ) ) Step 6 : 5 - - 84 = 83 Expression now : ( 47 + ( 83 + ( 5 - 1 ) ) ) + ( 47 + ( 5 - 26 ) ) Step 7 : 5 - 1 = - 13 Expression now : ( 47 + ( 83 + - 13 ) ) + ( 47 + ( 5 - 26 ) ) Step 8 : 83 + - 13 = 80 Expression now : ( 47 + 80 ) + ( 47 + ( 5 - 26 ) ) Step 9 : 47 + 80 = 124 Expression now : 124 + ( 47 + ( 5 - 26 ) ) Step 10 : 5 - 26 = 1 Expression now : 124 + ( 34 + 1 ) Step 11 : 38 + 1 = 54 Expression now : 124 </think> Final Result : 124
+
+Sample 10:
+  Expression: ((13 - 2) + (33 - 63)) + ((58 + 78) - (56 - 82))
+  Ground Truth: 143
+  Predicted: -167
+  Correct: False
+  Generated Text:
+    Evaluate : ( ( 13 - 2 ) + ( 33 - 63 ) ) + ( ( 58 + 78 ) - ( 56 - 82 ) ) <think> <think> Step 1 : 13 - 12 = - 11 Expression now : ( - 11 + ( 33 - 63 ) ) + ( ( 58 + 78 ) - ( 56 - 82 ) ) Step 2 : 33 - 63 = - 50 Expression now : ( - 11 + - 50 ) + ( ( 58 + 78 ) - ( 56 - 82 ) ) Step 3 : - 11 + - 50 = - 61 Expression now : - 61 + ( ( 58 + 78 ) - ( 56 - 82 ) ) Step 4 : 58 + 78 = 151 Expression now : - 61 + ( 151 - ( 56 - 82 ) ) Step 5 : 56 - 82 = - 33 Expression now : - 61 + ( 151 - - 33 ) Step 6 : 151 - - 33 = 182 Expression now : - 61 + 182 Step 7 : - 61 + 182 = - 167 Expression now : - 167 </think> Final Result : - 167
