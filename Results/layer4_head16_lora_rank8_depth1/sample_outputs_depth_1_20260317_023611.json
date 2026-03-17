@@ -1,0 +1,72 @@
+[
+  {
+    "expression": "97 - 78",
+    "ground_truth": 19,
+    "predicted": null,
+    "generated_text": "Evaluate : 97 - 78 <think>",
+    "correct": false
+  },
+  {
+    "expression": "91 - 16",
+    "ground_truth": 75,
+    "predicted": 91,
+    "generated_text": "Evaluate : 91 - 16 <think> <think> </think> Final Result : 91",
+    "correct": false
+  },
+  {
+    "expression": "94 - 76",
+    "ground_truth": 18,
+    "predicted": 12,
+    "generated_text": "Evaluate : 94 - 76 <think> <think> Step 1 : 94 - 76 = 12 Expression now : 12 </think> Final Result : 12",
+    "correct": false
+  },
+  {
+    "expression": "31 - 47",
+    "ground_truth": -16,
+    "predicted": 31,
+    "generated_text": "Evaluate : 31 - 47 <think> <think> </think> Final Result : 31",
+    "correct": false
+  },
+  {
+    "expression": "4 + 99",
+    "ground_truth": 103,
+    "predicted": 113,
+    "generated_text": "Evaluate : 4 + 99 <think> <think> Step 1 : 1 : 4 + 99 = 113 Expression now : 113 </think> Final Result : 113",
+    "correct": false
+  },
+  {
+    "expression": "46 + 56",
+    "ground_truth": 102,
+    "predicted": 102,
+    "generated_text": "Evaluate : 46 + 56 <think> <think> Step 1 : 46 + 56 = 105 Expression now : 102 </think> Final Result : 102",
+    "correct": true
+  },
+  {
+    "expression": "68 + 68",
+    "ground_truth": 136,
+    "predicted": 68,
+    "generated_text": "Evaluate : 68 + 68 <think> <think> </think> Final Result : 68",
+    "correct": false
+  },
+  {
+    "expression": "29 + 35",
+    "ground_truth": 64,
+    "predicted": 14,
+    "generated_text": "Evaluate : 29 + 35 <think> <think> </think> Final Result : 14",
+    "correct": false
+  },
+  {
+    "expression": "69 - 98",
+    "ground_truth": -29,
+    "predicted": null,
+    "generated_text": "Evaluate : 69 - 98 <think>",
+    "correct": false
+  },
+  {
+    "expression": "58 + 94",
+    "ground_truth": 152,
+    "predicted": 174,
+    "generated_text": "Evaluate : 58 + 94 <think> <think> Step 1 : 58 + 94 = 158 Expression now : 174 </think> Final Result : 174",
+    "correct": false
+  }
+]
