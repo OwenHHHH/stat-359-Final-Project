@@ -1,0 +1,99 @@
+============================================================
+ARITHMETIC LLM EVALUATION SUMMARY
+============================================================
+
+Model: Models/layer8_head2_lora_rank16/instruction_lora_20260317_012531_308934/lora_adapter.pt
+Tokenizer: Data
+Timestamp: 20260317_113402
+
+METRICS:
+------------------------------------------------------------
+Total Samples: 100
+Correct Samples: 2
+Parseable Samples: 95
+Exact Match Accuracy: 2.00%
+Parse Success Rate: 95.00%
+Avg Generation Length: 100.66 tokens
+
+SAMPLE OUTPUTS:
+------------------------------------------------------------
+
+Sample 1:
+  Expression: (95 + 94) - (72 - 11)
+  Ground Truth: 128
+  Predicted: 165
+  Correct: False
+  Generated Text:
+    Evaluate : ( 95 + 94 ) - ( 72 - 11 ) <think> <think> Step 1 : 95 + 94 = 183 Expression now : 183 - ( 72 - 11 ) Step 2 : 72 - 11 = 63 Expression now : 183 - 63 Step 3 : 183 - 63 = 165 Expression now : 165 </think> Final Result : 165
+
+Sample 2:
+  Expression: (34 + 38) - (80 - 70)
+  Ground Truth: 62
+  Predicted: 79
+  Correct: False
+  Generated Text:
+    Evaluate : ( 34 + 38 ) - ( 80 - 70 ) <think> <think> Step 1 : 34 + 38 = 83 Expression now : 83 - ( 80 - 70 ) Step 2 : 80 - 70 = 1 Expression now : 83 - 1 Step 3 : 83 - 1 = 79 Expression now : 79 </think> Final Result : 79
+
+Sample 3:
+  Expression: (21 + 9) - (30 + 51)
+  Ground Truth: -51
+  Predicted: -61
+  Correct: False
+  Generated Text:
+    Evaluate : ( 21 + 9 ) - ( 30 + 51 ) <think> <think> Step 1 : 21 + 9 = 31 Expression now : 31 - ( 30 + 51 ) Step 2 : 30 + 51 = 83 Expression now : 31 - 83 Step 3 : 31 - 83 = - 61 Expression now : - 61 </think> Final Result : - 61
+
+Sample 4:
+  Expression: (57 + 21) + (27 - 79)
+  Ground Truth: 26
+  Predicted: 25
+  Correct: False
+  Generated Text:
+    Evaluate : ( 57 + 21 ) + ( 27 - 79 ) <think> <think> Step 1 : 57 + 21 = 75 Expression now : 75 + ( 27 - 79 ) Step 2 : 27 - 79 = - 60 Expression now : 75 + - 60 Step 3 : 75 + - 60 = 25 Expression now : 25 </think> Final Result : 25
+
+Sample 5:
+  Expression: 81 + (16 + 15)
+  Ground Truth: 112
+  Predicted: 85
+  Correct: False
+  Generated Text:
+    Evaluate : 81 + ( 16 + 15 ) <think> <think> Step 1 : 16 + 15 = 46 Expression now : ( 46 + 46 ) Step 3 : 46 + 46 = 85 Expression now : 85 </think> Final Result : 85
+
+Sample 6:
+  Expression: (46 - 37) - (89 + 7)
+  Ground Truth: -87
+  Predicted: -86
+  Correct: False
+  Generated Text:
+    Evaluate : ( 46 - 37 ) - ( 89 + 7 ) <think> <think> Step 1 : 46 - 37 = 10 Expression now : 10 - ( 89 + 7 ) Step 2 : 89 + 7 = 95 Expression now : 10 - 95 Step 3 : 10 - 95 = - 86 Expression now : - 86 </think> Final Result : - 86
+
+Sample 7:
+  Expression: (28 + 41) - (82 - 78)
+  Ground Truth: 65
+  Predicted: 78
+  Correct: False
+  Generated Text:
+    Evaluate : ( 28 + 41 ) - ( 82 - 78 ) <think> <think> Step 1 : 28 + 41 = 75 Expression now : 75 - ( 82 - 78 ) Step 2 : 82 - 78 = 3 Expression now : 75 - 3 Step 3 : 75 - 3 = 78 Expression now : 78 </think> Final Result : 78
+
+Sample 8:
+  Expression: (10 - 55) + (9 + 51)
+  Ground Truth: 15
+  Predicted: -29
+  Correct: False
+  Generated Text:
+    Evaluate : ( 10 - 55 ) + ( 9 + 51 ) <think> <think> Step 1 : 10 - 55 = - 55 Expression now : - 55 + ( 9 + 51 ) Step 2 : 9 + 51 = 55 Expression now : - 55 + 55 Step 3 : - 55 + 55 = - 29 Expression now : - 29 </think> Final Result : - 29
+
+Sample 9:
+  Expression: (91 - 99) + (81 + 57)
+  Ground Truth: 130
+  Predicted: 128
+  Correct: False
+  Generated Text:
+    Evaluate : ( 91 - 99 ) + ( 81 + 57 ) <think> <think> Step 1 : 91 - 99 = - 11 Expression now : - 11 + ( 81 + 57 ) Step 2 : 81 + 57 = 142 Expression now : - 11 + 142 Step 3 : - 11 + 142 = 128 Expression now : 128 </think> Final Result : 128
+
+Sample 10:
+  Expression: 38 + (68 + 5)
+  Ground Truth: 111
+  Predicted: 38
+  Correct: False
+  Generated Text:
+    Evaluate : 38 + ( 68 + 5 ) <think> <think> </think> Final Result : 38 + ( 68 + 5 ) Step 2 : 68 + 5 = 72 Expression now : ( 54 + 72 ) Step 3 : 54 + 72 = 136 Expression now : 136 </think> Final Result : 136
