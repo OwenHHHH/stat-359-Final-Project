@@ -1,0 +1,99 @@
+============================================================
+ARITHMETIC LLM EVALUATION SUMMARY
+============================================================
+
+Model: Models/layer8_head4_lora_rank16/instruction_lora_20260316_121655_330633/lora_adapter.pt
+Tokenizer: Data
+Timestamp: 20260317_123604
+
+METRICS:
+------------------------------------------------------------
+Total Samples: 100
+Correct Samples: 2
+Parseable Samples: 100
+Exact Match Accuracy: 2.00%
+Parse Success Rate: 100.00%
+Avg Generation Length: 62.88 tokens
+
+SAMPLE OUTPUTS:
+------------------------------------------------------------
+
+Sample 1:
+  Expression: (66 - 88) + (57 - 63)
+  Ground Truth: -28
+  Predicted: -23
+  Correct: False
+  Generated Text:
+    Evaluate : ( 66 - 88 ) + ( 57 - 63 ) <think> <think> Step 1 : 66 - 88 = - 19 Expression now : - 19 + ( 57 - 63 ) Step 2 : 57 - 63 = - 4 Expression now : - 19 + - 4 Step 3 : - 19 + - 4 = - 23 Expression now : - 23 </think> Final Result : - 23
+
+Sample 2:
+  Expression: (79 + 96) - 94
+  Ground Truth: 81
+  Predicted: 98
+  Correct: False
+  Generated Text:
+    Evaluate : ( 79 + 96 ) - 94 <think> <think> Step 1 : 79 + 96 = 196 Expression now : 196 - 94 Step 3 : 196 - 94 = 98 Expression now : 98 </think> Final Result : 98
+
+Sample 3:
+  Expression: 68 - (26 - 92)
+  Ground Truth: 134
+  Predicted: -47
+  Correct: False
+  Generated Text:
+    Evaluate : 68 - ( 26 - 92 ) <think> <think> Step 2 : 62 - 92 = - 30 Expression now : - 30 Step 2 : - 30 = - 47 Expression now : - 47 </think> Final Result : - 47
+
+Sample 4:
+  Expression: (75 - 66) - (34 + 82)
+  Ground Truth: -107
+  Predicted: -134
+  Correct: False
+  Generated Text:
+    Evaluate : ( 75 - 66 ) - ( 34 + 82 ) <think> <think> Step 1 : 75 - 66 = 11 Expression now : 11 - ( 34 + 82 ) Step 2 : 34 + 82 = 131 Expression now : 11 - 131 Step 3 : 11 - 131 = - 134 Expression now : - 134 </think> Final Result : - 134
+
+Sample 5:
+  Expression: (28 - 67) - (28 + 97)
+  Ground Truth: -164
+  Predicted: -185
+  Correct: False
+  Generated Text:
+    Evaluate : ( 28 - 67 ) - ( 28 + 97 ) <think> <think> Step 1 : 28 - 67 = - 41 Expression now : - 41 - ( 28 + 97 ) Step 2 : 28 + 97 = 125 Expression now : - 41 - 125 Step 3 : - 41 - 125 = - 185 Expression now : - 185 </think> Final Result : - 185
+
+Sample 6:
+  Expression: (18 + 95) - (82 + 84)
+  Ground Truth: -53
+  Predicted: -48
+  Correct: False
+  Generated Text:
+    Evaluate : ( 18 + 95 ) - ( 82 + 84 ) <think> <think> Step 1 : 18 + 95 = 126 Expression now : 126 - ( 82 + 84 ) Step 2 : 82 + 84 = 176 Expression now : 126 - 176 Step 3 : 126 - 176 = - 48 Expression now : - 48 </think> Final Result : - 48
+
+Sample 7:
+  Expression: (66 + 11) + (11 + 62)
+  Ground Truth: 150
+  Predicted: 147
+  Correct: False
+  Generated Text:
+    Evaluate : ( 66 + 11 ) + ( 11 + 62 ) <think> <think> Step 1 : 66 + 11 = 75 Expression now : 75 + ( 11 + 62 ) Step 2 : 11 + 62 = 75 Expression now : 75 + 75 Step 3 : 75 + 75 = 147 Expression now : 147 </think> Final Result : 147
+
+Sample 8:
+  Expression: (92 - 41) - (18 + 48)
+  Ground Truth: -15
+  Predicted: -9
+  Correct: False
+  Generated Text:
+    Evaluate : ( 92 - 41 ) - ( 18 + 48 ) <think> <think> Step 1 : 92 - 41 = 53 Expression now : 53 - ( 18 + 48 ) Step 2 : 18 + 48 = 64 Expression now : 53 - 64 Step 3 : 53 - 64 = - 9 Expression now : - 9 </think> Final Result : - 9
+
+Sample 9:
+  Expression: (19 + 50) + (95 - 65)
+  Ground Truth: 99
+  Predicted: 105
+  Correct: False
+  Generated Text:
+    Evaluate : ( 19 + 50 ) + ( 95 - 65 ) <think> Step 1 : 19 + 50 = 62 Expression now : 62 + ( 95 - 65 ) Step 2 : 95 - 65 = 31 Expression now : 62 + 31 Step 3 : 62 + 31 = 105 Expression now : 105 </think> Final Result : 105
+
+Sample 10:
+  Expression: (37 - 42) + (45 + 44)
+  Ground Truth: 84
+  Predicted: 60
+  Correct: False
+  Generated Text:
+    Evaluate : ( 37 - 42 ) + ( 45 + 44 ) <think> <think> Step 1 : 37 - 42 = - 8 Expression now : - 8 + ( 45 + 44 ) Step 2 : 45 + 44 = 81 Expression now : - 8 + 81 Step 3 : - 8 + 81 = 60 Expression now : 60 </think> Final Result : 60
