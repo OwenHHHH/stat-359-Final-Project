@@ -1,0 +1,72 @@
+[
+  {
+    "expression": "(10 + 24) - (11 + 63)",
+    "ground_truth": -40,
+    "predicted": -68,
+    "generated_text": "Evaluate : ( 10 + 24 ) - ( 11 + 63 ) <think> <think> Step 1 : 10 + 24 = 26 Expression now : 26 - ( 11 + 63 ) Step 2 : 11 + 63 = 77 Expression now : 26 - 77 Step 3 : 26 - 77 = - 68 Expression now : - 68 </think> Final Result : - 68",
+    "correct": false
+  },
+  {
+    "expression": "(3 - 93) + (73 + 4)",
+    "ground_truth": -13,
+    "predicted": 2,
+    "generated_text": "Evaluate : ( 3 - 93 ) + ( 73 + 4 ) <think> <think> Step 1 : 3 - 93 = - 88 Expression now : - 88 + ( 73 + 4 ) Step 2 : 73 + 4 = 92 Expression now : - 88 + 92 Step 3 : - 88 + 92 = 2 Expression now : 2 </think> Final Result : 2",
+    "correct": false
+  },
+  {
+    "expression": "25 - (5 + 21)",
+    "ground_truth": -1,
+    "predicted": 29,
+    "generated_text": "Evaluate : 25 - ( 5 + 21 ) <think> Step 2 : 5 + 21 = 29 Expression now : 29 </think> Final Result : 29",
+    "correct": false
+  },
+  {
+    "expression": "(77 - 9) + (86 + 15)",
+    "ground_truth": 169,
+    "predicted": 142,
+    "generated_text": "Evaluate : ( 77 - 9 ) + ( 86 + 15 ) <think> <think> Step 1 : 77 - 9 = 55 Expression now : 55 + ( 86 + 15 ) Step 2 : 86 + 15 = 101 Expression now : 55 + 101 Step 3 : 55 + 101 = 142 Expression now : 142 </think> Final Result : 142",
+    "correct": false
+  },
+  {
+    "expression": "(77 + 37) + (6 - 41)",
+    "ground_truth": 79,
+    "predicted": 38,
+    "generated_text": "Evaluate : ( 77 + 37 ) + ( 6 - 41 ) <think> <think> Step 1 : 77 + 37 = 100 Expression now : 100 + ( 6 - 41 ) Step 2 : 6 - 41 = - 57 Expression now : 100 + - 57 Step 3 : 100 + - 57 = 38 Expression now : 38 </think> Final Result : 38",
+    "correct": false
+  },
+  {
+    "expression": "99 - (53 + 3)",
+    "ground_truth": 43,
+    "predicted": 65,
+    "generated_text": "Evaluate : 99 - ( 53 + 3 ) <think> Step 2 : 53 + 3 = 65 Expression now : 65 </think> Final Result : 65",
+    "correct": false
+  },
+  {
+    "expression": "(84 - 2) - (95 - 35)",
+    "ground_truth": 22,
+    "predicted": 10,
+    "generated_text": "Evaluate : ( 84 - 2 ) - ( 95 - 35 ) <think> <think> Step 1 : 84 - 2 = 94 Expression now : 94 - ( 95 - 35 ) Step 2 : 95 - 35 = 75 Expression now : 94 - 75 Step 3 : 94 - 75 = 10 Expression now : 10 </think> Final Result : 10",
+    "correct": false
+  },
+  {
+    "expression": "(59 + 20) + (32 - 41)",
+    "ground_truth": 70,
+    "predicted": 84,
+    "generated_text": "Evaluate : ( 59 + 20 ) + ( 32 - 41 ) <think> <think> Step 1 : 59 + 20 = 80 Expression now : 80 + ( 32 - 41 ) Step 2 : 32 - 41 = - 1 Expression now : 80 + - 1 Step 3 : 80 + - 1 = 84 Expression now : 84 </think> Final Result : 84",
+    "correct": false
+  },
+  {
+    "expression": "15 - (17 + 57)",
+    "ground_truth": -59,
+    "predicted": -24,
+    "generated_text": "Evaluate : 15 - ( 17 + 57 ) <think> : 17 + 57 = 83 Expression now : ( 48 + 83 ) - ( ( ( 17 + 57 ) - 57 ) - 57 ) Step 2 : 48 + 83 = 133 Expression now : 133 - ( ( ( 17 + 57 ) - 57 ) - 57 ) Step 3 : 17 + 57 = 80 Expression now : 133 - ( ( 80 - 57 ) - 57 ) Step 4 : 80 - 57 = 16 Expression now : 133 - ( 16 - 57 ) Step 5 : 16 - 57 = - 24 Expression now : - 24 </think> Final Result : - 24",
+    "correct": false
+  },
+  {
+    "expression": "(72 + 41) + (4 + 98)",
+    "ground_truth": 215,
+    "predicted": 242,
+    "generated_text": "Evaluate : ( 72 + 41 ) + ( 4 + 98 ) <think> <think> Step 1 : 72 + 41 = 117 Expression now : 117 + ( 4 + 98 ) Step 2 : 4 + 98 = 99 Expression now : 117 + 99 Step 3 : 117 + 99 = 242 Expression now : 242 </think> Final Result : 242",
+    "correct": false
+  }
+]
