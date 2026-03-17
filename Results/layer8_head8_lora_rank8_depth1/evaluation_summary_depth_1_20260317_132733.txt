@@ -1,0 +1,99 @@
+============================================================
+ARITHMETIC LLM EVALUATION SUMMARY
+============================================================
+
+Model: Models/layer8_head8_lora_rank8/instruction_lora_20260316_124424_115545/lora_adapter.pt
+Tokenizer: Data
+Timestamp: 20260317_132733
+
+METRICS:
+------------------------------------------------------------
+Total Samples: 100
+Correct Samples: 2
+Parseable Samples: 100
+Exact Match Accuracy: 2.00%
+Parse Success Rate: 100.00%
+Avg Generation Length: 22.01 tokens
+
+SAMPLE OUTPUTS:
+------------------------------------------------------------
+
+Sample 1:
+  Expression: 41 + 81
+  Ground Truth: 122
+  Predicted: 41
+  Correct: False
+  Generated Text:
+    Evaluate : 41 + 81 <think> <think> </think> Final Result : 41 + 81 = 128 Expression now : 128 </think> Final Result : 128
+
+Sample 2:
+  Expression: 79 - 16
+  Ground Truth: 63
+  Predicted: 79
+  Correct: False
+  Generated Text:
+    Evaluate : 79 - 16 <think> <think> </think> Final Result : 79 - 16 = 66 Expression now : 66 </think> Final Result : 66
+
+Sample 3:
+  Expression: 82 + 44
+  Ground Truth: 126
+  Predicted: 82
+  Correct: False
+  Generated Text:
+    Evaluate : 82 + 44 <think> <think> </think> Final Result : 82
+
+Sample 4:
+  Expression: 64 + 63
+  Ground Truth: 127
+  Predicted: 64
+  Correct: False
+  Generated Text:
+    Evaluate : 64 + 63 <think> <think> </think> Final Result : 64 - 63 = 10 Expression now : 10 </think> Final Result : 10
+
+Sample 5:
+  Expression: 49 - 95
+  Ground Truth: -46
+  Predicted: 49
+  Correct: False
+  Generated Text:
+    Evaluate : 49 - 95 <think> <think> </think> Final Result : 49 - 95 = - 44 Expression now : - 44 </think> Final Result : - 44
+
+Sample 6:
+  Expression: 56 - 43
+  Ground Truth: 13
+  Predicted: 56
+  Correct: False
+  Generated Text:
+    Evaluate : 56 - 43 <think> <think> </think> Final Result : 56 + 43 = 98 Expression now : 98 </think> Final Result : 98
+
+Sample 7:
+  Expression: 6 + 45
+  Ground Truth: 51
+  Predicted: 6
+  Correct: False
+  Generated Text:
+    Evaluate : 6 + 45 <think> <think> </think> Final Result : 6
+
+Sample 8:
+  Expression: 4 - 9
+  Ground Truth: -5
+  Predicted: 4
+  Correct: False
+  Generated Text:
+    Evaluate : 4 - 9 <think> <think> </think> Final Result : 4 - 9 = 7 Expression now : 7 </think> Final Result : 7
+
+Sample 9:
+  Expression: 12 - 74
+  Ground Truth: -62
+  Predicted: 12
+  Correct: False
+  Generated Text:
+    Evaluate : 12 - 74 <think> <think> </think> Final Result : 12 - 74 = - 51 Expression now : - 51 </think> Final Result : - 51
+
+Sample 10:
+  Expression: 2 - 23
+  Ground Truth: -21
+  Predicted: 1
+  Correct: False
+  Generated Text:
+    Evaluate : 2 - 23 <think> <think> </think> Final Result : 1 - 23 = - 14 Expression now : - 14 </think> Final Result : - 14
