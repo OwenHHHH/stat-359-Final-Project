@@ -1,0 +1,72 @@
+[
+  {
+    "expression": "61 - 60",
+    "ground_truth": 1,
+    "predicted": 61,
+    "generated_text": "Evaluate : 61 - 60 <think> </think> Final Result : 61",
+    "correct": false
+  },
+  {
+    "expression": "78 + 28",
+    "ground_truth": 106,
+    "predicted": 78,
+    "generated_text": "Evaluate : 78 + 28 <think> <think> </think> Final Result : 78",
+    "correct": false
+  },
+  {
+    "expression": "55 + 66",
+    "ground_truth": 121,
+    "predicted": 55,
+    "generated_text": "Evaluate : 55 + 66 <think> </think> Final Result : 55",
+    "correct": false
+  },
+  {
+    "expression": "69 - 60",
+    "ground_truth": 9,
+    "predicted": 69,
+    "generated_text": "Evaluate : 69 - 60 <think> </think> Final Result : 69",
+    "correct": false
+  },
+  {
+    "expression": "18 + 54",
+    "ground_truth": 72,
+    "predicted": 18,
+    "generated_text": "Evaluate : 18 + 54 <think> </think> Final Result : 18",
+    "correct": false
+  },
+  {
+    "expression": "56 + 10",
+    "ground_truth": 66,
+    "predicted": 56,
+    "generated_text": "Evaluate : 56 + 10 <think> Step 1 : 56 + 10 = 69 Expression now : 69 </think> Final Result : 56",
+    "correct": false
+  },
+  {
+    "expression": "26 + 59",
+    "ground_truth": 85,
+    "predicted": 110,
+    "generated_text": "Evaluate : 26 + 59 <think> Step 1 : 26 + 59 = 110 Expression now : 110 </think> Final Result : 110",
+    "correct": false
+  },
+  {
+    "expression": "92 + 20",
+    "ground_truth": 112,
+    "predicted": 116,
+    "generated_text": "Evaluate : 92 + 20 <think> Step 1 : 92 + 20 = 116 Expression now : 116 </think> Final Result : 116",
+    "correct": false
+  },
+  {
+    "expression": "14 + 50",
+    "ground_truth": 64,
+    "predicted": 93,
+    "generated_text": "Evaluate : 14 + 50 <think> Step 1 : 14 + 50 = 81 Expression now : 81 </think> Final Result : 93",
+    "correct": false
+  },
+  {
+    "expression": "90 - 95",
+    "ground_truth": -5,
+    "predicted": 90,
+    "generated_text": "Evaluate : 90 - 95 <think> </think> Final Result : 90",
+    "correct": false
+  }
+]
