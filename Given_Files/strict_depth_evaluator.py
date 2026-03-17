@@ -171,6 +171,7 @@ class ModelEvaluator:
         self.model_path = model_path
         self.tokenizer_path = tokenizer_path
         self.base_checkpoint_path = base_checkpoint_path
+        self.max_depth = 5
         
         # Load tokenizer
         from .arithmetic_tokenizer import ArithmeticBPETokenizer
@@ -276,7 +277,7 @@ class ModelEvaluator:
                 - total_samples: Total number of test samples
         """
         from .strict_depth_generator import ExpressionGenerator
-        
+        self.max_depth = max_depth
         # Generate test set
         generator = ExpressionGenerator(
             max_depth=max_depth,
