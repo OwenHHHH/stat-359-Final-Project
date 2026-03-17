@@ -1,0 +1,72 @@
+[
+  {
+    "expression": "5 + 75",
+    "ground_truth": 80,
+    "predicted": 5,
+    "generated_text": "Evaluate : 5 + 75 <think> <think> </think> Final Result : 5",
+    "correct": false
+  },
+  {
+    "expression": "43 + 96",
+    "ground_truth": 139,
+    "predicted": 43,
+    "generated_text": "Evaluate : 43 + 96 <think> <think> </think> Final Result : 43",
+    "correct": false
+  },
+  {
+    "expression": "82 + 15",
+    "ground_truth": 97,
+    "predicted": 82,
+    "generated_text": "Evaluate : 82 + 15 <think> <think> </think> Final Result : 82",
+    "correct": false
+  },
+  {
+    "expression": "66 + 71",
+    "ground_truth": 137,
+    "predicted": 66,
+    "generated_text": "Evaluate : 66 + 71 <think> <think> </think> Final Result : 66",
+    "correct": false
+  },
+  {
+    "expression": "86 - 27",
+    "ground_truth": 59,
+    "predicted": 53,
+    "generated_text": "Evaluate : 86 - 27 <think> <think> Step 1 : 86 - 27 = 53 Expression now : 53 </think> Final Result : 53",
+    "correct": false
+  },
+  {
+    "expression": "32 - 7",
+    "ground_truth": 25,
+    "predicted": 23,
+    "generated_text": "Evaluate : 32 - 7 <think> <think> Step 1 : 32 - 7 = 23 Expression now : 23 </think> Final Result : 23",
+    "correct": false
+  },
+  {
+    "expression": "65 + 74",
+    "ground_truth": 139,
+    "predicted": 65,
+    "generated_text": "Evaluate : 65 + 74 <think> <think> </think> Final Result : 65",
+    "correct": false
+  },
+  {
+    "expression": "95 + 63",
+    "ground_truth": 158,
+    "predicted": 95,
+    "generated_text": "Evaluate : 95 + 63 <think> <think> </think> Final Result : 95",
+    "correct": false
+  },
+  {
+    "expression": "53 - 84",
+    "ground_truth": -31,
+    "predicted": 53,
+    "generated_text": "Evaluate : 53 - 84 <think> <think> </think> Final Result : 53",
+    "correct": false
+  },
+  {
+    "expression": "93 - 67",
+    "ground_truth": 26,
+    "predicted": 93,
+    "generated_text": "Evaluate : 93 - 67 <think> <think> </think> Final Result : 93",
+    "correct": false
+  }
+]
