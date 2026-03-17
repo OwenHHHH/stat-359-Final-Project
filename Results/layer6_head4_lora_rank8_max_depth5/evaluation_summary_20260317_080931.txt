@@ -1,0 +1,99 @@
+============================================================
+ARITHMETIC LLM EVALUATION SUMMARY
+============================================================
+
+Model: Models/layer6_head4_lora_rank8/instruction_lora_20260316_102354_213419/lora_adapter.pt
+Tokenizer: Data
+Timestamp: 20260317_080931
+
+METRICS:
+------------------------------------------------------------
+Total Samples: 500
+Correct Samples: 6
+Parseable Samples: 158
+Exact Match Accuracy: 1.20%
+Parse Success Rate: 31.60%
+Avg Generation Length: 206.57 tokens
+
+SAMPLE OUTPUTS:
+------------------------------------------------------------
+
+Sample 1:
+  Expression: 34 - ((((57 - 38) + 42) + ((1 + 4) - (32 + 43))) + 70)
+  Ground Truth: -27
+  Predicted: None
+  Correct: False
+  Generated Text:
+    Evaluate : 34 - ( ( ( ( 57 - 38 ) + 42 ) + ( ( 1 + 4 ) - ( 32 + 43 ) ) ) + 70 ) <think> Expression now : ( ( ( 26 + 50 ) + 50 ) ( ( 19 + 50 ) + 50 ) ) Step 4 Expression now : ( ( 19 + 50 + 50 ) + ( ( 19 + 50 ) ) Step 5 Expression now : ( ( 19 + 50 + 50 ) ) Step 5 Expression now : ( ( 19 + 50 + ( 19 + 50 ) ) Step 6 = 26 Expression now now now Expression now Expression now : ( ( 19 + 50
+
+Sample 2:
+  Expression: 12 - (84 + 32)
+  Ground Truth: -104
+  Predicted: 26
+  Correct: False
+  Generated Text:
+    Evaluate : 12 - ( 84 + 32 ) <think> </think> Final Result : 26
+
+Sample 3:
+  Expression: 89
+  Ground Truth: 89
+  Predicted: 39
+  Correct: False
+  Generated Text:
+    Evaluate : 89 <think> </think> Final Result : 39
+
+Sample 4:
+  Expression: 29
+  Ground Truth: 29
+  Predicted: 39
+  Correct: False
+  Generated Text:
+    Evaluate : 29 <think> </think> Final Result : 39
+
+Sample 5:
+  Expression: 36 + 40
+  Ground Truth: 76
+  Predicted: None
+  Correct: False
+  Generated Text:
+    Evaluate : 36 + 40 <think> </think> Final Result : Result Result Result Result
+
+Sample 6:
+  Expression: 26 - (33 - (51 + (11 + (84 + 14))))
+  Ground Truth: 153
+  Predicted: None
+  Correct: False
+  Generated Text:
+    Evaluate : 26 - ( 33 - ( 51 + ( 11 + ( 84 + 14 ) ) ) ) <think> Result Result Result Result : ( ( 22
+
+Sample 7:
+  Expression: (((78 - (14 + 93)) + ((89 - 33) - 44)) - (92 - ((69 - 20) + (64 + 71)))) - (82 + 43)
+  Ground Truth: -50
+  Predicted: 77
+  Correct: False
+  Generated Text:
+    Evaluate : ( ( ( 78 - ( 14 + 93 ) ) + ( ( 89 - 33 ) - 44 ) ) - ( 92 - ( ( 69 - 20 ) + ( 64 + 71 ) ) ) ) - ( 82 + 43 ) <think> <think> 310 Expression : ( 82 + 75 ) + ( ( ( ( 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 = 7 Expression now : ( 82 + 75 ) ) + ( ( ( 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 = 7 Expression now : ( ( 7 + 7 7 7 7 7 7 7 7 7 7 7 7 ) ) ) ) Step 6 : 7 7 7 7 7 = 7 Expression now : ( 82 + 7 ) - ( 82 - 7 ) Step 8 : 82 + 7 = 77 Expression now : 77 </think> Final Result : 77
+
+Sample 8:
+  Expression: 27
+  Ground Truth: 27
+  Predicted: 18
+  Correct: False
+  Generated Text:
+    Evaluate : 27 <think> </think> Final Result : 18
+
+Sample 9:
+  Expression: ((((53 + 17) - (98 - 55)) + ((12 - 39) - (99 + 40))) - (68 + ((29 + 18) - 89))) + 92
+  Ground Truth: -73
+  Predicted: None
+  Correct: False
+  Generated Text:
+    Evaluate : ( ( ( ( 53 + 17 ) - ( 98 - 55 ) ) + ( ( 12 - 39 ) - ( 99 + 40 ) ) ) - ( 68 + ( ( 29 + 18 ) - 89 ) ) ) + 92 <think> 309 295 310 338 358 341 310 341 335 352 358 295 391 358 391 380 306 281 353 314 306 306 391 306 352 306 377 377 306 343 343 357 364 357 319 368 310 330 Expression now : 306 352 310 273 394 274 291 Expression : 368 306
+
+Sample 10:
+  Expression: 78
+  Ground Truth: 78
+  Predicted: 1
+  Correct: False
+  Generated Text:
+    Evaluate : 78 <think> </think> Final Result : 1
