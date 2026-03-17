@@ -1,0 +1,72 @@
+[
+  {
+    "expression": "72 - (((2 - (39 - 86)) - (57 - 50)) + ((59 + (4 - 93)) - (23 + (25 + 10))))",
+    "ground_truth": 118,
+    "predicted": null,
+    "generated_text": "Evaluate : 72 - ( ( ( 2 - ( 39 - 86 ) ) - ( 57 - 50 ) ) + ( ( 59 + ( 4 - 93 ) ) - ( 23 + ( 25 + 10 ) ) ) ) <think> Evaluate Step 2 : 2 - 86 = - 31 Expression now : ( ( - 31 - ( - 31 - ( 41 + ) ) - ( ( ( 2 - ( 39 - 86 ) ) - ( 57 - 50 ) ) + ( ( 59 + ( 4 - 93 ) ) - ( 23 + ( 25 - 93 ) ) ) ) Step 2 : 41 + 31 = 69 Expression now : ( ( - 31 - ( 49 - 69 ) ) - ( ( ( 2 - 86 ) - ( 57 - 50 ) ) + ( ( 59 + ( 4 - 93 ) ) - ( 23 + ( 25 - 93 ) ) ) ) Step 3 : 49 - 69 = - 19 Expression now : ( ( - 31 - - 19 ) - ( ( ( 2 - 85 ) - ( 57 - 50 ) ) + ( ( 59 + ( 4 - 93 ) ) - ( 23 + ( 25 - 93 ) ) ) ) Step 4 : - 31 - - 19 = - 5 Expression now : ( - 19 - ( ( ( 2 - 85 ) - ( 57 - 50 ) ) + ( ( 59 + ( 4 - 93 ) ) - ( 23 + ( 25 - 93 ) ) ) ) Step 5 : 2 - 85 = - 41 Expression now : ( - 19 - ( ( - 41 - - 41 ) + ( ( 59 + ( 4 - 93 ) ) - ( 23 + ( 25 - 93 ) ) ) ) Step 6 : 41 - - 41 = 59 Expression now : ( - 19 - ( 59 - 59 ) + ( ( 59 + ( 4 - 93 ) ) - ( 23 + ( 25 - 93 ) ) ) ) Step 7 : - 61 - - 59 = - 24 Expression now : ( - 19 + - 24 ) + ( ( ( 4 - 93 ) + ( 4 - 93 ) ) - ( 23 + ( 25 - 93 ) ) ) ) Step 8 : 4 - 86 = - 24 Expression now : ( - 19 + - 24 ) + ( ( 59 + ( 4 - 93 ) ) - ( 23 + ( 25 - 93 ) ) ) ) Step 9 : 4 - 48 = - 26 Expression now : - 24",
+    "correct": false
+  },
+  {
+    "expression": "70 - 16",
+    "ground_truth": 54,
+    "predicted": null,
+    "generated_text": "Evaluate : 70 - 16 <think> Expression now : </think> Final Result :",
+    "correct": false
+  },
+  {
+    "expression": "3",
+    "ground_truth": 3,
+    "predicted": null,
+    "generated_text": "Evaluate : 3 <think> = 19 Expression now : 23 </think> Final Result :",
+    "correct": false
+  },
+  {
+    "expression": "45",
+    "ground_truth": 45,
+    "predicted": null,
+    "generated_text": "Evaluate : 45 <think> Evaluate = Expression now : </think> Final Result :",
+    "correct": false
+  },
+  {
+    "expression": "(48 - (((71 - 41) - (95 + 48)) - (34 - (97 + 38)))) + (45 + 43)",
+    "ground_truth": 148,
+    "predicted": -33,
+    "generated_text": "Evaluate : ( 48 - ( ( ( 71 - 41 ) - ( 95 + 48 ) ) - ( 34 - ( 97 + 38 ) ) ) ) + ( 45 + 43 ) <think> Step 2 : 48 - 84 = - 2 Expression now : ( ( ( - 2 - 2 ) - ( 16 - ( 16 - 2 ) - ( 95 + 48 ) ) - ( 34 - ( 95 + 48 ) ) ) ) + ( 45 + 43 ) Step 3 : - 2 - 2 = - 43 Expression now : ( ( - 43 - ( 16 - - 43 ) - ( 95 + 48 ) ) - ( 34 - ( 95 + 48 ) ) ) ) + ( 45 + 43 ) Step 3 : 16 - - 43 = - 27 Expression now : ( ( - 27 - ( ( 16 - - 27 ) - ( 95 + 48 ) ) - ( 34 - ( 95 + 48 ) ) ) + 43 ) + ( 45 + 43 ) Step 4 : 16 - 27 = - 10 Expression now : ( ( - 27 - ( 95 + 48 ) ) - ( 34 - ( 95 + 48 ) ) ) + 43 Step 6 : 95 + 48 = 108 Expression now : ( ( - 27 - ( 95 + 48 ) ) - ( 34 - ( 95 + 48 ) ) ) + 43 Step 7 : 95 + 48 = 146 Expression now : ( ( - 27 - 123 ) - ( 34 - ( 95 + 48 ) ) ) + 43 Step 8 : - 52 + 48 = - 15 Expression now : ( - 28 - ( 34 - ( 95 + 48 ) ) ) + 43 Step 9 : 75 + 48 = 114 Expression now : ( - 28 - ( 34 - 114 ) ) + 43 Step 9 : 34 - 114 = - 1 Expression now : ( - 28 - 1 ) + 43 Step 11 : - 1 - 1 = - 10 Expression now : - 10 + 43 Step 12 : - 10 + 43 = - 33 Expression now : - 33 </think> Final Result : - 33",
+    "correct": false
+  },
+  {
+    "expression": "42",
+    "ground_truth": 42,
+    "predicted": null,
+    "generated_text": "Evaluate : 42 <think> Evaluate",
+    "correct": false
+  },
+  {
+    "expression": "9",
+    "ground_truth": 9,
+    "predicted": null,
+    "generated_text": "Evaluate : 9 <think> = 6 Expression now : 6 </think> Final Result :",
+    "correct": false
+  },
+  {
+    "expression": "18",
+    "ground_truth": 18,
+    "predicted": null,
+    "generated_text": "Evaluate : 18 <think> = now Expression </think> Final Result :",
+    "correct": false
+  },
+  {
+    "expression": "32",
+    "ground_truth": 32,
+    "predicted": null,
+    "generated_text": "Evaluate : 32 <think>",
+    "correct": false
+  },
+  {
+    "expression": "30",
+    "ground_truth": 30,
+    "predicted": null,
+    "generated_text": "Evaluate : 30 <think> = Expression Expression </think> Final Result :",
+    "correct": false
+  }
+]
