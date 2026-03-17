@@ -1,0 +1,72 @@
+[
+  {
+    "expression": "22 + 85",
+    "ground_truth": 107,
+    "predicted": -57,
+    "generated_text": "Evaluate : 22 + 85 <think> <think> Step 1 : 33 - 16 = - 36 Expression now : - 46 </think> Final Result : - 57",
+    "correct": false
+  },
+  {
+    "expression": "83 - 51",
+    "ground_truth": 32,
+    "predicted": -7,
+    "generated_text": "Evaluate : 83 - 51 <think> <think> Step 1 : 29 - 36 = - 28 Expression now : 16 </think> Final Result : - 7",
+    "correct": false
+  },
+  {
+    "expression": "6 + 15",
+    "ground_truth": 21,
+    "predicted": -13,
+    "generated_text": "Evaluate : 6 + 15 <think> <think> Step 1 : 40 - 24 = - 16 Expression now : - 13 </think> Final Result : - 13",
+    "correct": false
+  },
+  {
+    "expression": "32 - 34",
+    "ground_truth": -2,
+    "predicted": -42,
+    "generated_text": "Evaluate : 32 - 34 <think> <think> Step 1 : 42 + 50 = - 40 Expression now : - 47 </think> Final Result : - 42",
+    "correct": false
+  },
+  {
+    "expression": "41 - 27",
+    "ground_truth": 14,
+    "predicted": 44,
+    "generated_text": "Evaluate : 41 - 27 <think> <think> </think> Final Result : 44",
+    "correct": false
+  },
+  {
+    "expression": "61 + 4",
+    "ground_truth": 65,
+    "predicted": 52,
+    "generated_text": "Evaluate : 61 + 4 <think> <think> Step 1 : 36 - 3 = 5 Expression now : 15 + 28 </think> Final Result : 52",
+    "correct": false
+  },
+  {
+    "expression": "82 + 2",
+    "ground_truth": 84,
+    "predicted": 34,
+    "generated_text": "Evaluate : 82 + 2 <think> <think> </think> Final Result : 34",
+    "correct": false
+  },
+  {
+    "expression": "40 + 13",
+    "ground_truth": 53,
+    "predicted": null,
+    "generated_text": "Evaluate : 40 + 13 <think>",
+    "correct": false
+  },
+  {
+    "expression": "81 - 64",
+    "ground_truth": 17,
+    "predicted": -42,
+    "generated_text": "Evaluate : 81 - 64 <think> <think> Step 1 : 36 - 54 = - 16 Expression now : - ( ( - 1 - 23 ) Step 2 : - 22 - 28 = - 28 Expression now : - 27 </think> Final Result : - 42",
+    "correct": false
+  },
+  {
+    "expression": "26 - 21",
+    "ground_truth": 5,
+    "predicted": null,
+    "generated_text": "Evaluate : 26 - 21 <think> Evaluate : 51",
+    "correct": false
+  }
+]
