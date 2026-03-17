@@ -1,0 +1,72 @@
+[
+  {
+    "expression": "94 + 99",
+    "ground_truth": 193,
+    "predicted": 94,
+    "generated_text": "Evaluate : 94 + 99 <think> <think> </think> Final Result : 94",
+    "correct": false
+  },
+  {
+    "expression": "21 + 22",
+    "ground_truth": 43,
+    "predicted": 21,
+    "generated_text": "Evaluate : 21 + 22 <think> <think> </think> Final Result : 21",
+    "correct": false
+  },
+  {
+    "expression": "50 - 32",
+    "ground_truth": 18,
+    "predicted": 50,
+    "generated_text": "Evaluate : 50 - 32 <think> <think> </think> Final Result : 50 - 32 = 17 Expression now : 17 </think> Final Result : 17",
+    "correct": false
+  },
+  {
+    "expression": "32 + 4",
+    "ground_truth": 36,
+    "predicted": 32,
+    "generated_text": "Evaluate : 32 + 4 <think> <think> </think> Final Result : 32",
+    "correct": false
+  },
+  {
+    "expression": "88 + 62",
+    "ground_truth": 150,
+    "predicted": 88,
+    "generated_text": "Evaluate : 88 + 62 <think> Evaluate : 88 <think> </think> Final Result : 88",
+    "correct": false
+  },
+  {
+    "expression": "83 + 87",
+    "ground_truth": 170,
+    "predicted": 83,
+    "generated_text": "Evaluate : 83 + 87 <think> <think> </think> Final Result : 83",
+    "correct": false
+  },
+  {
+    "expression": "53 + 88",
+    "ground_truth": 141,
+    "predicted": 53,
+    "generated_text": "Evaluate : 53 + 88 <think> <think> </think> Final Result : 53",
+    "correct": false
+  },
+  {
+    "expression": "73 + 8",
+    "ground_truth": 81,
+    "predicted": 79,
+    "generated_text": "Evaluate : 73 + 8 <think> <think> Step 1 : 73 + 8 = 79 Expression now : 79 </think> Final Result : 79",
+    "correct": false
+  },
+  {
+    "expression": "37 - 12",
+    "ground_truth": 25,
+    "predicted": 31,
+    "generated_text": "Evaluate : 37 - 12 <think> <think> Step 1 : 37 - 12 = 31 Expression now : 31 </think> Final Result : 31",
+    "correct": false
+  },
+  {
+    "expression": "40 + 46",
+    "ground_truth": 86,
+    "predicted": 40,
+    "generated_text": "Evaluate : 40 + 46 <think> <think> </think> Final Result : 40",
+    "correct": false
+  }
+]
